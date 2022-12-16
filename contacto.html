@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="container">
+        <div>
+            <img class="img" src="https://cdn.iconscout.com/icon/free/png-256/amazon-43-432492.png" alt="logo">
+        </div>
+        <div class="navigation">
+            <a href="/index.html">Inicio</a>
+            <a href="/trending.html">Trending</a>
+            <a href="/detail.html">Contacto</a>
+        </div>
+        <div>
+            <input placeholder="Buscar aquí..." class="serch" type="search">
+        </div>
+    </nav>
+
+
+    <!--NUEVOS CAMBIOS CONTACTO-->
+    <form action="https://formsubmit.co/cursos@attomic.es" method="post">
+        <div>
+
+            <label for="nombre">Nombre</label>
+            <input name="firstName" id="nombre" type="text" placeholder="Escribe aquí tu nombre...">
+        </div>
+        <div>
+            <label for="apellidos">Apellidos</label>
+            <input name="apellidos" id="apellidos" type="text" placeholder="Escribe aquí tus apellidos...">
+        </div>
+
+        <div>
+            <label for="descripcion">Escribe un mensaje</label>
+            <textarea id="descripcion" name="mensaje" rows="4" cols="50"
+                placeholder="Escribe lo que quieras."></textarea>
+        </div>
+        <div>
+
+            <label for="contacto">Seleccione un método de contacto</label>
+            <select name="contacto" id="contacto">
+                <option value="telefono">Télefono</option>
+                <option value="email">Email</option>
+            </select>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email">
+        </div>
+        <div>
+            <label for="numero">Número de teléfono</label>
+            <input type="text" name="numero" id="numero">
+        </div>
+        <div class="check">
+            <input type="checkbox" name="terminos" id="terminos">
+            <label for="terminos">Acepto términos y condiciones.</label>
+        </div>
+
+        <input class="btn" type="submit" name="boton enviar" value="Enviar">
+
+
+    </form>
+    <!--FIN NUEVOS CAMBIOS TRENDING-->
+
+
+    <footer>
+        <div>
+            <img class="img2" src="https://cdn.iconscout.com/icon/free/png-256/amazon-43-432492.png" alt="logo">
+        </div>
+        <div class="navigation2">
+            <a href="/index.html">Inicio</a>
+            <a href="/trending.html">Trending</a>
+            <a href="/detail.html">Contacto</a>
+            <a href="#">Administrador</a>
+        </div>
+        <div class="social">
+            <a href="https://www.instagram.com/" target="_blank"><img src="imagenes/instagram.png"></a>
+            <a href="https://twitter.com/home" target="_blank"><img src="imagenes/twitter.png"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="imagenes/fb.png"></a>
+            <a href="https://www.linkedin.com/feed/" target="_blank"> <img src="imagenes/linkedin.png"> </a>
+        </div>
+        <hr>
+        <p>Todos los derechos reservados</p>
+    </footer>
+</body>
+
+</html>
